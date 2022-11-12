@@ -64,6 +64,16 @@
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button data-modal-open type="button" class="button">Замовити послугу</button>
+        <div data-modal class="modal is-hidden">
+          <h2 class="hidden">Модальне вікно</h2>
+          <div class="modal-window">
+            <button data-modal-close type="button" class="modal-close">
+              <svg class="icon" width="11" height="11">
+                <use href="./images/svg-icon.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
       <!-- Особливості -->
       <section class="section">
@@ -309,9 +319,10 @@
           </ul>
         </div>
       </section>
+      <!-- Постійні клієнти -->
       <section class="section client">
         <div class="container">
-          <h1 class="section-title">Постійні клієнти</h1>
+          <h2 class="section-title">Постійні клієнти</h2>
           <ul class="list client-list">
             <li>
               <a class="client-link" href="#">
@@ -362,7 +373,7 @@
     <!-- Футлер -->
     <footer class="footer">
       <div class="container footer-container">
-        <section>
+        <div>
           <h2 class="hidden">Контактна інформація</h2>
           <a href="./index.html" class="logo link">Web<span class="logo-white">Studio</span></a>
           <address class="address">
@@ -383,8 +394,8 @@
               </li>
             </ul>
           </address>
-        </section>
-        <section class="footer-social">
+        </div>
+        <div class="footer-social">
           <h2 class="footer-social-title">приєднуйтесь</h2>
           <ul class="footer-social-list list">
             <li>
@@ -416,19 +427,9 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </div>
     </footer>
-    <section data-modal class="modal is-hidden">
-      <h2 class="hidden">Модальне вікно</h2>
-      <div class="modal-window">
-        <button data-modal-close type="button" class="modal-close">
-          <svg class="icon" width="11" height="11">
-            <use href="./images/svg-icon.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </section>
     <script src="./js/modal.js"></script>
   </body>
 </html>
