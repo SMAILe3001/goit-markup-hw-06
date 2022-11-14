@@ -644,6 +644,10 @@ img {
   margin-left: 93px;
 }
 
+.subscribe {
+  display: flex;
+}
+
 .subscribe-label {
   display: flex;
 }
@@ -769,6 +773,7 @@ img {
 }
 
 .modal-text {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.1667;
@@ -848,10 +853,10 @@ img {
 
 .checkbox-input {
   position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .checkbox-text::before {
@@ -862,14 +867,13 @@ img {
   border: 2px solid #212121;
   border-radius: 2px;
   margin-right: 7px;
-  
 }
 
 .checkbox-input:checked ~ .checkbox-text::before {
   background-image: url(../images/check.svg);
   background-size: contain;
   background-origin: border-box;
-  border: 0px solid #2196F3;
+  border: 0px solid #2196f3;
 }
 
 .checkbox-text {
@@ -880,5 +884,5 @@ img {
 }
 
 .checkbox-linck {
-  color: #2196F3;
+  color: #2196f3;
 }
